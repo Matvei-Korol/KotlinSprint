@@ -1,7 +1,9 @@
 package lesson_1
 
 fun main() {
-    println("any text")
-    println("any changed ")
-    println("second change")
+    var numberOfOrders: Int
+    var reviewText: String
+
+    numberOfOrders = 5
+    reviewText = "Спасибо за качество"
 }
