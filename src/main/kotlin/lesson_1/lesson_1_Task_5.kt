@@ -10,7 +10,6 @@ fun main() {
     minutes %= 60 // 48
     seconds %= 60 // 0
 
-    println(hour)
-    println(minutes)
-    println(seconds)
+    println("Время в космосе -> 0$hour:$minutes:0$seconds")
+
 }
