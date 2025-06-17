@@ -3,13 +3,13 @@ package lesson_1
 fun main() {
     var seconds = 6480
     var minutes: Int
-    var hour: Int
+    var hours: Int
 
     minutes = seconds / 60 // 108
-    hour = minutes / 60 //1
+    hours = minutes / 60 //1
     minutes %= 60 // 48
     seconds %= 60 // 0
 
-    println("Время в космосе -> 0$hour:$minutes:0$seconds")
+    println("%02d:%02d:%02d".format(hours, minutes, seconds))
 
 }
