@@ -13,8 +13,5 @@ fun main() {
     hour = 10
     minute = 55
 
-    println("Посадка ->> \n" +
-            "Год: $year \n" +
-            "Час: $hour \n" +
-            "Минута: $minute \n")
+    print("Посадка ->> %02d:%02d".format(hour, minute))
 }
